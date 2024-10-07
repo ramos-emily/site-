@@ -1,0 +1,230 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+}
+
+button {
+    background: transparent;
+    border: none; 
+    cursor: pointer; 
+    align-items: center;
+    
+}
+
+.anuncio {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    min-height: 30px;
+    background-color: rgba(218, 125, 203, 1);
+}
+
+.anuncio p {
+    margin: 5px;
+    color: white;
+
+    
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(191, 117, 179, 1);
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+
+.infoBar{
+    display: flex; 
+    gap: 50px;
+    height: 50px;
+}
+
+h6 {
+    color: black;
+}
+
+.pais{
+    height: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.pais img {
+    width: 1.5rem;
+    height: 1rem;
+
+}
+
+.lupa {
+    display: block;
+    width: 25px;
+    height: 25px;
+
+}
+
+.logo{
+    display: block;
+    width: 10rem;
+    height: 2rem;
+    background-color: transparent;
+}
+
+.novid {
+    background-color: transparent;
+}
+
+.contNovid {
+    display: none;
+    position: absolute;
+   
+}
+
+.novid:hover + .contNovid {
+    display: block;
+}
+
+.adulto {
+    background-color: transparent;
+}
+
+.contAdulto {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.adulto:hover + .contAdulto {
+    display: block;
+}
+
+.infan {
+    background-color: transparent;
+}
+
+.contInfan {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.infan:hover + .contInfan {
+    display: block;
+}
+
+.sale {
+    background-color: transparent;
+}
+
+
+.contSale {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+/* hover + serve para pegar o conteudo da proxima div */
+.sale:hover + .contSale {
+    display: block;
+}
+
+.acess {
+    background-color: transparent;
+}
+
+.contAcess {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.acess:hover + .contAcess {
+    display: block;
+}
+
+.gifts {
+    background-color: transparent;
+}
+
+.contGif {
+    display: none; /* fica inv */
+    position: absolute;
+    z-index: 10;
+}
+
+.gifts:hover + .contGif{
+    display: block;
+}
+
+.itens {
+    width: 15px;
+}
+
+
+.contPerson {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.person:hover + .contPerson {
+    display: block;
+}
+
+.contPerson {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.person:hover + .contPerson {
+    display: block;
+}
+
+.contPerson {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.person:hover + .contPerson {
+    display: block;
+}
+
+.containerNav1{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.bailarina{
+    width: 100%;
+}
+
+.icons-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.icons-container img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.container-pais-lupa{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
