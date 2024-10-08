@@ -16,6 +16,10 @@ h2 {
     font-size: 1rem;
 }
 
+p {
+    font-weight: bold
+}
+
 button {
     background: transparent;
     border: none; 
@@ -27,15 +31,15 @@ button {
 .anuncio {
     display: flex;
     justify-content: center;
-    margin: 0px;
-    padding: 0px;
-    min-height: 30px;
+    min-height: 1.8rem;
     background-color: rgba(218, 125, 203, 1);
 }
 
 .anuncio p {
-    margin: 5px;
+    margin: 0.5rem;
     color: white;
+    display: flex;
+    padding-left: 5rem;
 
     
 }
@@ -92,6 +96,7 @@ h6 {
     width: 12rem;
     height: 3rem;
     background-color: transparent;
+
 }
 
 .novid {
@@ -227,12 +232,13 @@ h6 {
 .icons-container img{
     height: 1.2rem;
     width: 1.2rem;
+    
 }
 
 .container-pais-lupa{
     display: flex;
     flex-direction: row;
-    gap: 5rem;
+    gap: 3rem;
 }
 
 .container-pagamentos p {
@@ -259,17 +265,40 @@ h6 {
 .container-sapatilhas {
     display: flex;
     justify-content: center;
-    padding-left: 5rem;    
-    padding-right: 5rem;
-    height: 11rem;
-    padding-top: 2rem;
-}
-
-.container-sapatilhas h1 {
-    color: black;
-    font-weight: 450;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     
 }
+
+.container-sapatilhas p{
+    color: black;
+    font-weight: 250;
+    font-weight: bold
+    
+}
+
+.container-sapatilhas img{
+}
+
+.container-Introsapatilhas h1 {
+    color: black;
+    font-weight: 450;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+}
+
+.meio {
+    background-color: rgba(239, 173, 229, 1);
+}
+
+.pe {
+    height: 100%;
+    width: 100%;
+}
+
 
 
 
