@@ -9,6 +9,11 @@
     font-weight: 250;
     font-style: normal;
     color: white;
+    
+}
+
+h2 {
+    font-size: 1rem;
 }
 
 button {
@@ -46,10 +51,16 @@ button {
 
 }
 
-.infoBar{
+.infoBar1 {
     display: flex; 
     gap: 50px;
-    height: 50px;
+
+}
+
+.infoBar2{
+    display: flex; 
+    gap: 50px;
+    height: 4.3rem;
 }
 
 h6 {
@@ -78,8 +89,8 @@ h6 {
 
 .logo{
     display: block;
-    width: 10rem;
-    height: 2rem;
+    width: 12rem;
+    height: 3rem;
     background-color: transparent;
 }
 
@@ -213,14 +224,9 @@ h6 {
     width: 100%;
 }
 
-.icons-container{
-    display: flex;
-    flex-direction: row;
-}
-
 .icons-container img{
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 1.2rem;
+    width: 1.2rem;
 }
 
 .container-pais-lupa{
@@ -228,3 +234,42 @@ h6 {
     flex-direction: row;
     gap: 5rem;
 }
+
+.container-pagamentos p {
+    color: black;
+    padding-left: 3.5rem;
+    font-size: small;
+
+}
+
+.container-pagamentos {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;    
+    padding-right: 5rem;
+    height: 9rem;
+    align-items: center;
+
+}
+
+.container-pagamentos img{
+    width: 3rem;
+}
+
+.container-sapatilhas {
+    display: flex;
+    justify-content: center;
+    padding-left: 5rem;    
+    padding-right: 5rem;
+    height: 11rem;
+    padding-top: 2rem;
+}
+
+.container-sapatilhas h1 {
+    color: black;
+    font-weight: 450;
+    
+}
+
+
+
