@@ -9,12 +9,6 @@
     font-weight: 250;
     font-style: normal;
     color: white;
-    
-
-}
-
-body {
-    background-color: rgba(239, 173, 229, 1);
 }
 
 h2 {
@@ -105,14 +99,9 @@ h6 {
 
     width: 12rem;
     height: 3rem;
-    background-color: transparent;
     padding-left: 3rem;
     padding-right: 1rem;
 
-}
-
-.novid {
-    background-color: transparent;
 }
 
 .contNovid {
@@ -125,10 +114,6 @@ h6 {
     display: block;
 }
 
-.adulto {
-    background-color: transparent;
-}
-
 .contAdulto {
     display: none;
     position: absolute;
@@ -137,10 +122,6 @@ h6 {
 
 .adulto:hover + .contAdulto {
     display: block;
-}
-
-.infan {
-    background-color: transparent;
 }
 
 .contInfan {
@@ -153,11 +134,6 @@ h6 {
     display: block;
 }
 
-.sale {
-    background-color: transparent;
-}
-
-
 .contSale {
     display: none;
     position: absolute;
@@ -168,10 +144,6 @@ h6 {
     display: block;
 }
 
-.acess {
-    background-color: transparent;
-}
-
 .contAcess {
     display: none;
     position: absolute;
@@ -180,10 +152,6 @@ h6 {
 
 .acess:hover + .contAcess {
     display: block;
-}
-
-.gifts {
-    background-color: transparent;
 }
 
 .contGif {
@@ -244,12 +212,13 @@ section{
 
 }
 
+.container-bailarina{
+    display: flex;
+}
 
 .bailarina{
     width: 100%;
-    height: auto;
-
-
+    height: 100%;
 }
 
 .icons-container img{
@@ -321,6 +290,7 @@ section{
 .pe {
     height: 100%;
     width: 100%;
+    display: flex;
 }
 
 
